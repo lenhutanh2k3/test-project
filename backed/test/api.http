@@ -1,0 +1,20 @@
+GET http://localhost:5000/api/category/
+
+###
+POST http://localhost:5000/api/category/
+Content-Type: application/json
+
+{
+    "name":"Truyen trinh tham"
+}
+
+### 
+PUT http://localhost:5000/api/category/67ece979beb8a2defe45c812
+Content-Type: application/json
+
+{
+    "name":"Truyen ngu ngon"
+}
+
+###
+DELETE http://localhost:5000/api/category/67ece95c4acebbb09925453c

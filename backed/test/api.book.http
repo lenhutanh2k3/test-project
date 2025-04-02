@@ -1,0 +1,24 @@
+GET http://localhost:5000/api/product
+
+### 
+POST http://localhost:5000/api/product
+Content-Type: application/json
+
+{
+        "name": "7 Thói Quen Hiệu Quả",
+        "price": 150000,
+        "description": "Bí quyết thành công qua 7 thói quen quan trọng.",
+        "image": "7_thoi_quen.jpg",
+        "category": "67ece979beb8a2defe45c812"
+}
+
+###
+DELETE http://localhost:5000/api/product/67ecf7051666da5eedc72141
+
+###
+PUT http://localhost:5000/api/product/67ecf4366d6285d4b7076671
+Content-Type: application/json
+
+{
+        "category":"67ece979beb8a2defe45c812"
+}

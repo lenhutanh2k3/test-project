@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Đắc Nhân Tâm",
+        "price": 120000,
+        "description": "Cuốn sách kinh điển về nghệ thuật giao tiếp và thuyết phục.",
+        "image": "dac_nhan_tam.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a0"
+    },
+    {
+        "name": "Nhà Giả Kim",
+        "price": 90000,
+        "description": "Cuốn tiểu thuyết đầy cảm hứng về hành trình tìm kiếm ước mơ.",
+        "image": "nha_gia_kim.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a1"
+    },
+    {
+        "name": "7 Thói Quen Hiệu Quả",
+        "price": 150000,
+        "description": "Bí quyết thành công qua 7 thói quen quan trọng.",
+        "image": "7_thoi_quen.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a2"
+    },
+    {
+        "name": "Bí Mật Tư Duy Triệu Phú",
+        "price": 130000,
+        "description": "Cách tư duy của những người giàu có và thành công.",
+        "image": "tu_duy_trieu_phu.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a3"
+    },
+    {
+        "name": "Cha Giàu Cha Nghèo",
+        "price": 140000,
+        "description": "Bài học tài chính quan trọng từ hai người cha.",
+        "image": "cha_giau_cha_ngheo.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a4"
+    },
+    {
+        "name": "Dám Bị Ghét",
+        "price": 110000,
+        "description": "Triết lý sống giúp bạn tự do và hạnh phúc hơn.",
+        "image": "dam_bi_ghet.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a5"
+    },
+    {
+        "name": "Tư Duy Nhanh Và Chậm",
+        "price": 180000,
+        "description": "Phân tích cách bộ não con người tư duy và ra quyết định.",
+        "image": "tu_duy_nhanh_va_cham.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a6"
+    },
+    {
+        "name": "Thay Đổi Cuộc Sống Với Nhân Số Học",
+        "price": 125000,
+        "description": "Hiểu rõ bản thân và tiềm năng thông qua nhân số học.",
+        "image": "nhan_so_hoc.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a7"
+    },
+    {
+        "name": "Sức Mạnh Của Thói Quen",
+        "price": 135000,
+        "description": "Cách thói quen ảnh hưởng đến cuộc sống và cách thay đổi chúng.",
+        "image": "suc_manh_thoi_quen.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a8"
+    },
+    {
+        "name": "Tâm Lý Học Tội Phạm",
+        "price": 160000,
+        "description": "Phân tích tâm lý tội phạm và các vụ án nổi tiếng.",
+        "image": "tam_ly_hoc_toi_pham.jpg",
+        "category": "65f12a34d1c5a2b1e8f1e3a9"
+    }
+]
