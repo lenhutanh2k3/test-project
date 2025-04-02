@@ -1,5 +1,5 @@
 import Category from "../model/category.model.js";
-
+import CategoryValidate from '../validations/category.valid.js'
 const Category_controller = {
 
     getAll: async (req, res) => {
@@ -17,7 +17,14 @@ const Category_controller = {
     createCategory: async (req, res) => {
         try {
             const { name } = req.body;
-            const category =await new Category({name});
+            const {error,value}= CategoryValidate(name);
+            if(error)
+            {
+                return res.status(400).json({
+                    message:"Khong tim thay",
+                })
+            }
+            const category =await new Category(value);
             await category.save();
             res.status(201).json({ "message": "Create successfullly", "data": category });
         } catch (error) {
