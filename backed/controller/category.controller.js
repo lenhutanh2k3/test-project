@@ -17,14 +17,13 @@ const Category_controller = {
     createCategory: async (req, res) => {
         try {
             const { name } = req.body;
-            const {error,value}= CategoryValidate(name);
-            if(error)
+            if(!name)
             {
                 return res.status(400).json({
                     message:"Khong tim thay",
                 })
             }
-            const category =await new Category(value);
+            const category =await new Category({name});
             await category.save();
             res.status(201).json({ "message": "Create successfullly", "data": category });
         } catch (error) {

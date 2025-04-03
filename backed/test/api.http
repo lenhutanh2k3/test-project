@@ -3,9 +3,10 @@ GET http://localhost:5000/api/category/
 ###
 POST http://localhost:5000/api/category/
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2N2VlNGFjY2Q3ZDI1OTc3MzcxOTcxZDEiLCJ1c2VybmFtZSI6InVzZXIxMjMiLCJyb2xlIjoidXNlciIsImlhdCI6MTc0MzY3NDAzOCwiZXhwIjoxNzQzNjc0NjM4fQ.AntBdVHJnklxx-qUpdJS3Ri7x-IZLd8ibK87BBDvVFk
 
 {
-    "name":"Truyen trinh tham"
+    "name":"Truyen co tich moi"
 }
 
 ### 

@@ -4,9 +4,10 @@ GET http://localhost:5000/api/product
 POST http://localhost:5000/api/product
 Content-Type: application/json
 
+
 {
-        "name": "7 Thói Quen Hiệu Quả",
-        "price": 150000,
+        "name": "Xin chao",
+        "price": 120000,
         "description": "Bí quyết thành công qua 7 thói quen quan trọng.",
         "image": "7_thoi_quen.jpg",
         "category": "67ece979beb8a2defe45c812"
